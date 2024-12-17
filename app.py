@@ -9,7 +9,7 @@ app = Flask(__name__)
 def get_db_connection():
     conn = psycopg2.connect(
         host='127.0.0.1',
-        database='flask_project',  # Burada verilənlər bazanızı qeyd edin
+        database='flaskdbb',  # Burada verilənlər bazanızı qeyd edin
         user='postgres',  # PostgreSQL istifadəçi adınızı qeyd edin
         password='aa3203930'  # PostgreSQL şifrənizi qeyd edin
     )
